@@ -1,0 +1,80 @@
+.bar {
+  fill: #3498db;
+}
+
+.bar:hover {
+  fill: #2ecc71;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #cacaca;
+  shape-rendering: crispEdges;
+}
+
+.legend {
+    padding: 5px;
+    font: 10px sans-serif;
+    background: yellow;
+    box-shadow: 2px 2px 1px #888;
+}
+
+.tooltip {
+    background: #eee;
+    box-shadow: 0 0 5px #999999;
+    color: #333;
+    font-size: 12px;
+    left: 130px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 95px;
+    z-index: 10;
+    display: block;
+    opacity: 0;
+}
+
+.y .tick text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #242021;
+  font-family: 'Lato';
+}
+
+.x .tick text {
+  color: #b8b6b7;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Lato';
+  opacity: .4;
+}
+
+.line {
+  fill: none;
+  stroke: url(#line-gradient);
+  stroke-width: 5px;
+}
+
+.tick line {
+    display: none;
+}
+
+text.x-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #a2a2a2;
+    font-family: 'Lato';
+    opacity: .5;
+}
+
+text.x-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #242021;
+    font-family: 'Lato';
+}
